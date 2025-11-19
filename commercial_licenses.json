@@ -1,0 +1,23 @@
+{
+    "PyQt6": "Requires commercial license from Riverbank for closed-source sale (GPL free version forces source disclosure)",
+    "PyQt5": "Requires commercial license for closed-source (GPL free version)",
+    "PySide6": "Requires Qt commercial license for proprietary closed-source apps",
+    "PySide2": "Requires Qt commercial license for closed-source",
+    "QScintilla": "GPL – copyleft; requires source release for derivatives",
+    "PyQtChart": "GPL – commercial license required for closed-source",
+    "PyQt3D": "GPL – not allowed in closed-source without paid license",
+    "PyQtDataVisualization": "GPL – commercial license needed",
+    "viewflow": "Django-viewflow pro: Paid license for private/commercial PyPI install",
+    "igraph": "GPL – copyleft; forces GPL on importing code for distribution",
+    "networkx": "BSD permissive, but often GPL-linked dependencies – risky for closed-source",
+    "artifex": "GPL-3 – high copyleft risk (see Hancom lawsuit examples)",
+    "chez-scheme": "Mixed licenses; GPL parts require source disclosure",
+    "devpi": "Requires license disclosure for commercial/private repos",
+    "keygen": "Fair Source – paid for private distribution in commercial apps",
+    "opencv-contrib-python": "Some modules require commercial license for proprietary use",
+    "turbodbc": "May require Microsoft C++ build tools commercial license",
+    "sktime": "BSD – safe, but check deps for GPL",
+    "tslearn": "BSD – safe, but verify for GPL-linked C++ deps",
+    "scipy": "BSD permissive – safe if no GPL sub-deps",
+    "last_updated": "19 Nov 2025, 10:36:31"
+}
