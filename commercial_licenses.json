@@ -25,8 +25,8 @@
     "flask": "BSD – safe",
     "django": "BSD – safe",
      "gradio": "AGPL license - requires making your entire source code public, even for web apps.",
-    "new-cool-library": "EUPL 1.2 - Copyleft license, similar to GPL. Requires source disclosure. Not safe for closed-source apps."
-    "last_updated": "19 Nov 2025, 11:15:00"
+     "last_updated": "19 Nov 2025, 11:15:00"
 }
+
 
 
