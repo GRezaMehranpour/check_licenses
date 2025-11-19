@@ -1,0 +1,29 @@
+# Policy for My Commercial Application
+# This file defines the rules for license and security compliance.
+
+# Section 1: License Policies
+licenses:
+  # Licenses that are explicitly allowed and require no further review.
+  allow:
+    - MIT
+    - Apache-2.0
+    - BSD-3-Clause
+    - BSD-2-Clause
+    - ISC
+    - PSF-2.0
+
+  # Licenses that are explicitly forbidden in our closed-source commercial product.
+  # Add your previous blacklist items here.
+  deny:
+    - GPL-2.0
+    - GPL-3.0
+    - AGPL-3.0
+    - SSPL-1.0
+    - EUPL-1.2
+    - "Fair Source" # Keywords can also be used
+
+# Section 2: Security Policies
+vulnerabilities:
+  # Fail the audit if any vulnerability of this severity or higher is found.
+  # Options: low, medium, high, critical
+  fail_on_severity: high
