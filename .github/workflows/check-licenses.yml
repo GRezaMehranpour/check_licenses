@@ -1,0 +1,36 @@
+name: Check Project Licenses
+
+on:
+  # Run this check on every push and pull request to the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  license-audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pip-tools requests pkg_resources
+
+      - name: Generate full dependency list
+        run: |
+          # Make sure you have a requirements.in file in your repo!
+          pip-compile requirements.in -o requirements.txt
+          echo "Generated requirements.txt:"
+          cat requirements.txt
+
+      - name: Run License Audit Script
+        run: python audit_licenses.py
