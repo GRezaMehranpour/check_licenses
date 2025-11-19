@@ -24,5 +24,7 @@
     "requests": "Apache-2.0 – safe",
     "flask": "BSD – safe",
     "django": "BSD – safe",
+     "gradio": "AGPL license - requires making your entire source code public, even for web apps.",
     "last_updated": "19 Nov 2025, 11:15:00"
 }
+
